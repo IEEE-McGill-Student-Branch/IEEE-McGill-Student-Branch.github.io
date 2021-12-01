@@ -1,2 +1,2 @@
-# harambase.github.io
-The webpage for harambase
+# sbieee.mcgill.github.io
+The webpage for IEEE Student Branch of McGill

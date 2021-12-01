@@ -67,12 +67,12 @@ a:focus, img:focus, button:focus, .btn:focus {
 
 
 ::-moz-selection {
- background-color:#e84d49;
+ background-color:#21b2dc;
  color:#fff;
  text-shadow:none;
 }
 ::selection {
-	background-color: #e84d49;
+	background-color: #21b2dc;
 	color: #fff;
 	text-shadow: none;
 }
@@ -124,12 +124,12 @@ aside[role="siderbar-nav"] > nav > ul > li > a {
 aside[role="siderbar-nav"] > nav > ul > li.active a, aside[role="siderbar-nav"] > nav > ul > li a:hover {
 	background-color: inherit;
 	border: none;
-	color: #e84d49
+	color: #21b2dc
 }
 aside[role="siderbar-nav"] > nav .nav-tabs>li.active>a, aside[role="siderbar-nav"] > nav .nav-tabs>li.active>a:focus, aside[role="siderbar-nav"] > nav .nav-tabs>li.active>a:hover {
 	background-color: inherit;
 	border: none;
-	color: #e84d49
+	color: #21b2dc
 }
 .copyrights{
 	text-indent:-9999px;
@@ -168,7 +168,7 @@ header[role="main-header"] ul[role="socil-icons"] > li > a {
 	font-weight: normal
 }
 header[role="main-header"] ul[role="socil-icons"] > li > a:hover {
-	color: #e84d49
+	color: #21b2dc
 }
 /*== Main ==*/
 
@@ -191,7 +191,7 @@ article.home-content header[role="home-title"] h2 {
 	font-weight: 700;
 }
 article.home-content header[role="home-title"] h2 > span {
-	color: #e84d49;
+	color: #21b2dc;
 }
 article.home-content p {
 	font-size: 21px;
@@ -216,7 +216,7 @@ article.home-content p {
 	font-size: 11px;
 	line-height: 12px;
 	letter-spacing: 2px;
-	border-top: 3px solid #e84d49;
+	border-top: 3px solid #21b2dc;
 	margin-top: 5px;
 	padding-top: 6px
 }
@@ -298,7 +298,7 @@ article.home-content p {
 	line-height: 50px
 }
 .subscribe-pan form label:hover input {
-	background-color: #e84d49
+	background-color: #21b2dc
 }
 .subscribe-pan form label:hover i {
 	color: #FFF
@@ -321,7 +321,7 @@ color:#a4a4a4;
 	font-weight: 300
 }
 .error_message {
-	color: #e84d49
+	color: #21b2dc
 }
 #success_page h3, #success_page p {
 	color: #60ca6f
@@ -372,7 +372,7 @@ color:#a4a4a4;
 	color: #FFF;
 	font-weight: 600;
 	letter-spacing: 2px;
-	background-color: #e84d49;
+	background-color: #21b2dc;
 	margin-bottom: 60px
 }
 .contact-from input[type="submit"]:hover {
@@ -402,11 +402,11 @@ footer[role="footer"] p + p {
 }
 footer[role="footer"] p i {
 	padding: 0 4px;
-	color: #e84d49
+	color: #21b2dc
 }
 footer[role="footer"] p a {
 	padding: 0 4px;
-	color: #e84d49
+	color: #21b2dc
 }
 /*==  code for animated blinking cursor ==*/
 .typed-cursor {
