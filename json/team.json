@@ -1,0 +1,20 @@
+[
+  {
+    "id": "fa",
+    "name": "Fozail Ahmad",
+    "jobTitle": "President",
+    "type": "m",
+    "description": "PhD Student in Computer Engineering (First Year). I really like computers obviously, I really like cars and exploring new technology. I like being practical, which is why I spent many years making robot during my younger years!",
+    "Year": "2021-2022",
+    "moreInfo": [
+      {
+        "email": "fozail.ahmad@mail.mcgill.ca",
+        "Duties": ["Preside at all meetings of the Student Branch.", "Preside at all meetings of the Student Branch.", "Appoint Program, Publicity, and Membership committee Chairs promptly.", "Complete the Student Branch Annual Plan https://sbr.vtools.ieee.org/.",
+          "Arrange for the election of new Officers annually https://officers.vtools.ieee.org/.", "Student Branch Meeting/Event Reporting (4 per year): https://events.vtools.ieee.org/",
+          "Ensure smooth transition of information and materials to newly elected Officers and arrange an orderly transfer of Student Branch records.", "Coordinate activities with local Section and Region volunteers. Information can be found via: rosters.ieee.org.",
+          "Communicate frequently with local University IEEE Student Branches."]
+      }
+    ]
+  }
+]
+
