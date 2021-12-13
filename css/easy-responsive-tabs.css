@@ -33,10 +33,10 @@ h2.resp-accordion {
     display: none;
 }
 
-.resp-tab-content {
-    display: none;
-    padding: 15px;
-}
+/*.resp-tab-content {*/
+/*    display: none;*/
+/*    padding: 15px;*/
+/*}*/
 
 .resp-tab-active {
 	border: 1px solid #F3D303 !important;
@@ -56,10 +56,10 @@ h2.resp-accordion {
     display: block;
 }
 
-.resp-tab-content {
-    border: 1px solid #F3D303;
-    border-top-color: #F3D303;
-}
+/*.resp-tab-content {*/
+/*    border: 1px solid #F3D303;*/
+/*    border-top-color: #F3D303;*/
+/*}*/
 h2.resp-accordion {
     font-size: 17px;
     border: 1px solid #c1c1c1;
