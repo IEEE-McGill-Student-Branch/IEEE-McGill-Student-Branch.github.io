@@ -192,7 +192,7 @@
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <h2 class="modal-title" :id="item.id">{{item.name}}</h2>
+                                                    <h2 class="modal-title" :id="item.id">Details</h2>
                                                     <button type="button" class="close" data-dismiss="modal"
                                                             aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
@@ -205,24 +205,49 @@
                                                                 <div class="col-sm-4 ins-image">
                                                                     <img :src="'images/teams/' + item.id + '.jpg'"
                                                                          :alt="item.name"/>
+                                                                    <div class="ins-name">
+                                                                        <h3>{{item.name}} {{item.enName}}
+<!--                                                                            <small>{{item.jobTitle}}</small>-->
+                                                                        </h3>
+                                                                        <p>{{item.description}}</p>
+                                                                    </div>
                                                                 </div>
                                                                 <div class="col-sm-1"></div>
                                                                 <div class="col-sm-7">
+                                                                    <div class="span span1">
+                                                                        <p class="left" style="font-size: 17px;">
+                                                                            Job Title:</p>
+                                                                        <p class="right" style="font-size: 17px;">
+                                                                            {{item.jobTitle}}</p>
+                                                                        <div class="clearfix"></div>
+                                                                    </div>
+                                                                    <div class="span span1">
+                                                                        <p class="left" style="font-size: 17px;">
+                                                                            Year:</p>
+                                                                        <p class="right" style="font-size: 17px;">
+                                                                            {{item.Year}}</p>
+                                                                        <div class="clearfix"></div>
+                                                                    </div>
+                                                                    <div class="span span1">
+                                                                        <p class="left" style="font-size: 17px;">
+                                                                            Email:</p>
+                                                                        <p class="right" style="font-size: 17px;">
+                                                                            <a :href="'mailto:'+item.moreInfo.email">{{item.moreInfo.email}}</a>
+                                                                        </p>
+                                                                        <div class="clearfix"></div>
+                                                                    </div>
                                                                     <div id="detail">
                                                                         <div class="ins-name">
-                                                                            <h3>{{item.name}} {{item.enName}}
-                                                                                <small>{{item.jobTitle}}</small>
-                                                                            </h3>
-                                                                            <p>{{item.description}}</p>
+                                                                            <h3>Duties </h3>
                                                                         </div>
-                                                                        <!--                                                                        v-if="item.moreInfo.Duties > 0"-->
-                                                                        <div class="span span1">
-                                                                            <p class="left">
-                                                                                {{item.moreInfo.Duties[0].id}}</p>
-                                                                            <p class="right">
-                                                                                {{item.moreInfo.Duties[0].description}}</p>
-                                                                            <div class="clearfix"></div>
-                                                                        </div>
+                                                                        <div v-for="i in item.moreInfo.Duties.length">
+                                                                            <div class="span span1">
+                                                                                <p class="right">
+                                                                                    <strong> {{i}} </strong>
+                                                                                    {{item.moreInfo.Duties[i-1]}}</p>
+                                                                                <div class="clearfix"></div>
+                                                                            </div>
+                                                                        <div>
                                                                     </div>
                                                                     <div class="clerfix"></div>
                                                                 </div>
@@ -230,11 +255,11 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary"
-                                                            data-dismiss="modal">Close
-                                                    </button>
-                                                </div>
+<!--                                                <div class="modal-footer">-->
+<!--                                                    <button type="button" class="btn btn-secondary"-->
+<!--                                                            data-dismiss="modal">Close-->
+<!--                                                    </button>-->
+<!--                                                </div>-->
                                             </div>
                                         </div>
                                     </div>
@@ -244,6 +269,8 @@
                             <div class="clearfix"></div>
                             <!-- Modal -->
                         </div>
+                    </div>
+                </div>
                     </div>
                 </div>
             </section>
@@ -316,7 +343,6 @@
             "moreInfo": {
                 "email": "fozail.ahmad@mail.mcgill.ca",
                 "Duties": [
-                    "Preside at all meetings of the Student Branch.",
                     "Preside at all meetings of the Student Branch.",
                     "Appoint Program, Publicity, and Membership committee Chairs promptly.",
                     "Complete the Student Branch Annual Plan https://sbr.vtools.ieee.org/.",
@@ -501,7 +527,7 @@
             "name": "Youssef Safari",
             "jobTitle": "Director of Academic Affairs",
             "type": "m",
-            "description": "![Yousef was born and raised in Amol, Mazandaran, Iran. He is currently working toward the Ph.D. degree in electrical engineering from McGill University, Montreal, Canada at THInK Team. His current research interests include heterogeneous system integration, neuromorphic computing, power delivery, and thermal management.](https://images.unsplash.com/photo-1601931935821-5fbe71157695?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb)\n\nYousef was born and raised in Amol, Mazandaran, Iran. He is currently working toward the Ph.D. degree in electrical engineering from McGill University, Montreal, Canada at THInK Team. His current research interests include heterogeneous system integration, neuromorphic computing, power delivery, and thermal management.",
+            "description": "Yousef was born and raised in Amol, Mazandaran, Iran. He is currently working toward the Ph.D. degree in electrical engineering from McGill University, Montreal, Canada at THInK Team. His current research interests include heterogeneous system integration, neuromorphic computing, power delivery, and thermal management.",
             "Year": "2021-2022",
             "moreInfo": {
                 "email": "",
